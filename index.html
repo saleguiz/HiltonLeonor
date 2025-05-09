@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H&L</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <div class="parte1">
+        <img class="img1" src="Parte1.jpg" alt="">
+    </div>
+    <div class="parte2">
+        <img class="img2" src="Parte2.jpg" alt="">
+        <audio class="musica" src="Christina Perri - A Thousand Years.mp3" controls></audio>
+        <a target="_blank" href="https://www.google.com/maps/place/El+Rancho+de+Pol+1/@-11.9806278,-77.006256,17z/data=!3m1!4b1!4m6!3m5!1s0x9105c5153ad48273:0xd8beb9b6605f73ac!8m2!3d-11.9806331!4d-77.0036811!16s%2Fg%2F11h02d_mnc?entry=ttu&g_ep=EgoyMDI1MDUwNi4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D">
+        <img class="como" src="Comollegar.jpg" alt="">
+        </a>
+    </div>
+    <div class="parte3">
+        <img class="img3" src="Parte3.jpg" alt="">
+    </div>
+    <div class="parte4">
+        <img class="img4" src="Parte4.jpg" alt="">
+    </div>
+    <div class="parte5">
+        <img class="img5" src="Parte5.jpg" alt="">
+    </div>
+    <div class="parte6">
+        <img class="img6" src="Parte6.jpg" alt="">
+        <a target="_blank" href="https://wa.me/51998337403?text=Confirmo mi aistencia">
+        <img class="Btn1" src="Btn1.png" alt="">
+        </a>
+        <a target="_blank" href="https://wa.me/51972048074?text=Confirmo mi asistencia">
+        <img class="Btn2" src="Btn2.png" alt="">
+        </a>
+    </div>
+    <div class="parte7">
+        <img class="img7" src="Parte7.jpg" alt="">
+
+
+        <div class="container">
+        <div class="countdow">
+            <div>
+                <span id="dias">320</span>
+                <p>dias</p>
+            </div>
+
+            <div>
+                <span id="horas">24</span>
+                <p>Horas</p>
+            </div>
+
+            <div>
+                <span id="minutos">20</span>
+                <p>minutos</p>
+            </div>
+
+            <div>
+                <span id="segundos">50</span>
+                <p>Segundos</p>
+            </div>
+        </div>
+    </div>
+
+
+
+    </div>
+
+    
+
+    <script>
+       function actualizarcountdow(){
+    const fechaActual = new Date();
+    const fechaDato = new Date('2025/06/07');
+    const diferencia = fechaDato.getTime() - fechaActual.getTime();
+
+    const dias = Math.floor(diferencia / (1000 * 60 * 60 * 24));
+    const horas = Math.floor((diferencia % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minutos = Math.floor((diferencia % (1000 * 60 * 60)) / (1000 * 60));
+    const segundos = Math.floor((diferencia % (1000 * 60)) / 1000);
+
+    document.getElementById('dias').textContent = dias;
+    document.getElementById('horas').textContent = horas;
+    document.getElementById('minutos').textContent = minutos;
+    document.getElementById('segundos').textContent = segundos;
+
+}
+
+setInterval(actualizarcountdow, 1000);
+actualizarcountdow();
+
+
+    </script>
+    
+</body>
+</html>

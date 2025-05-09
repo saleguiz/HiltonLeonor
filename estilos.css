@@ -1,0 +1,147 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.parte1{
+    margin: auto;
+    width: 400px;
+    height: 800px;
+}
+
+.img1{
+   width: 400px;
+   height: 800px; 
+}
+
+.parte2{
+     margin: auto;
+    width: 400px;
+    height: 800px;
+}
+
+.img2{
+    position: absolute;
+   width: 400px;
+   height: 800px; 
+}
+
+.musica{
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 40px;
+}
+
+.como{
+    position: absolute;
+    width: 190px;
+    height: 50px;
+    margin-top: 720px;
+    margin-left: 100px;
+}
+
+.parte3{
+     margin: auto;
+    width: 400px;
+    height: 800px;
+}
+
+.img3{
+   width: 400px;
+   height: 800px; 
+}
+.parte4{
+     margin: auto;
+    width: 400px;
+    height: 800px;
+}
+
+.img4{
+   width: 400px;
+   height: 800px; 
+}
+.parte5{
+     margin: auto;
+    width: 400px;
+    height: 800px;
+}
+
+.img5{
+   width: 400px;
+   height: 800px; 
+}
+.parte6{
+     margin: auto;
+    width: 400px;
+    height: 800px;
+}
+
+.img6{
+    position: absolute;
+   width: 400px;
+   height: 800px; 
+}
+
+.Btn1{
+    position: absolute;
+    width: 240px;
+    height: 50px;
+    margin-top: 580px;
+    margin-left: 80px;
+}
+
+.Btn2{
+    position: absolute;
+    width: 240px;
+    height: 50px;
+    margin-top: 710px;
+    margin-left: 80px;
+}
+
+.parte7{
+     margin: auto;
+    width: 400px;
+    height: 800px;
+}
+
+.img7{
+    position: absolute;
+   width: 400px;
+   height: 800px; 
+}
+
+.container{
+    margin-top: 90px;
+    margin-left: 15px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 3em;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.countdow{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 350px;
+    max-width: 450px;
+    background-color: rgb(255, 155, 155);
+    border-radius: 10px;
+}
+
+.countdow div span{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.countdow div p{
+    font-size: 1.4rem;
+}
